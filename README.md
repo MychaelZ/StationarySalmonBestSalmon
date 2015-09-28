@@ -1,28 +1,35 @@
-# Event Elect
+# ElectEvent
 
-## Heading ##
-  ElectEvent.
+Provide a convenient way of event planning with people who have similar interests. Built with Angular, Node/Express, MongoDB.
 
-## Sub-Heading ##
-  Provide a convenient way of event planning with people who have similar interests.
+## Usage
 
-## Summary ##
-  Propose and coordinate group activities with your friends. At a glance see what's coming up and most popular.
+We'd love to see what you build on top of our app.
 
-## Problem ##
-  Lack of ways people have to coordinate activities with different friend groups.
+If you have any suggestions, please submit an [issue](https://github.com/CatatonicWonton/CatatonicWonton/issues).
 
-## Solution ##
-  Users can now have an input in what events they want to go to. Users can see popular events across all activity groups.
+### Installing Dependencies
 
-## Quote from You ##
-  ElectEvent provides a way to do all the things with all the peoples.
+Initialize MongoDB database:
 
-## How to Get Started ##
-  Sign up, join groups, propose events. Vote events, see events, do events.
+```sh
+mongod
+```
 
-## Customer Quote ##
-  Before ElectEvent I did nothing, now with ElectEvent I have friends!
+From within the root directory:
 
-## Closing and Call to Action ##
-  Sign up today, and start joining groups and going to events!
+```sh
+npm install
+bower install
+```
+
+### Running the app
+
+The server uses port 8000 or the PORT environment variable.
+
+From within the root directory:
+
+```sh
+npm start
+```
+
